@@ -1,0 +1,19 @@
+{
+    "name": "systonic/ban_france_geocode_provider",
+    "description": "Base Addresse Nationale provider for the geocoder module.",
+    "type": "drupal-module",
+    "keywords": ["php", "drupal", "geocoder", "provider"],
+    "homepage": "https://github.com/systonic/ban_france_geocode_provider",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Sylvain Larras"
+        }
+    ],
+    "require": {
+        "drupal/core": "^9 || ^10",
+        "systonic/ban-france-provider": "^1.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
